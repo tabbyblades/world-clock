@@ -11,3 +11,10 @@ let seoulTimeElement = seoulElement.querySelector(".time");
 let seoulTime = moment().tz("Asia/Seoul");
 seoulDateElement.innerHTML= moment().format("MMMM Do YYYY");
 seoulTimeElement.innerHTML = seoulTime.format("h:mm:ss [<small>]A[</small>]");
+
+let parisElement = document.querySelector("#paris");
+let parisDateElement = parisElement.querySelector(".date");
+let parisTimeElement = parisElement.querySelector(".time");
+let parisTime = moment().tz("Europe/Paris");
+parisDateElement.innerHTML= moment().format("MMMM Do YYYY");
+parisTimeElement.innerHTML = parisTime.format("h:mm:ss [<small>]A[</small>]");
