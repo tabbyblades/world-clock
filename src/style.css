@@ -1,7 +1,7 @@
 .container{
     max-width: 600px !important;
     margin: 0 auto;
-    border: 4px solid #ff5468;
+    border: 2px solid #ff5468;
     border-radius: 25px;
     font-family:'Poppins', sans-serif;
     margin-top: 10px;
@@ -20,6 +20,9 @@ footer{
 select{
     display: block;
     width: 100%;
+    border-radius: 25px;
+    border: 2px solid #ff5468;
+
 }
 
 .row{
