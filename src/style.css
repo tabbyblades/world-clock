@@ -32,3 +32,9 @@ select{
 h3{
     font-size: 20px !important;
 }
+
+.time{
+    font-size: 30px;
+    text-align: center;
+    color: #ff5468;
+}
