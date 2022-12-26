@@ -25,7 +25,7 @@ parisTimeElement.innerHTML = parisTime.format("h:mm:ss [<small>]A[</small>]");
 let newyorkElement = document.querySelector("#newyork");
 let newyorkDateElement = newyorkElement.querySelector(".date");
 let newyorkTimeElement = newyorkElement.querySelector(".time");
-let newyorkTime = moment().tz("US/Eastern");
+let newyorkTime = moment().tz("America/New_York");
 newyorkDateElement.innerHTML= moment().format("MMMM Do YYYY");
 newyorkTimeElement.innerHTML = newyorkTime.format("h:mm:ss [<small>]A[</small>]");}
 
