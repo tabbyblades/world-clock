@@ -36,3 +36,16 @@ select{
     text-align: center;
     color: #ff5468;
 }
+
+.link{
+    display: block;
+    margin-bottom: 20px;
+    color: #ff5468;
+    text-decoration: none;
+    text-align: center;
+}
+
+.githublink{
+    color: #ff5468;
+    text-decoration: none;
+}
