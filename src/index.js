@@ -44,7 +44,7 @@ function updateCity(event){
     `<div class="row m-3 city">
     <div class="col-md-6"><h2>${cityName}</h2>
     <h5 class="date">${cityTime.format("MMMM Do YYYY")}</h5></div>
-    <div class="col-md-6 time"><h3>${cityTime.format("h:mm:ss")}<small>${cityTime.format("A")}</small>
+    <div class="col-md-6 time"><h3>${cityTime.format("h:mm:ss ")}<small>${cityTime.format("A")}</small>
 </h3></div>
 </div>`;
 }
